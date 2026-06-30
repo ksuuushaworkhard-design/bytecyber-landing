@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">ByteCyber favicon</title>
+  <desc id="desc">Small ByteCyber app icon with bidstream curve.</desc>
+  <defs>
+    <linearGradient id="axisLine" x1="12" y1="42" x2="54" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50D8AF"/>
+      <stop offset="0.52" stop-color="#39BDEB"/>
+      <stop offset="1" stop-color="#6885FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#050A11"/>
+  <path d="M12 46 H52" fill="none" stroke="#344155" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M18 42 V50 M30 42 V50 M42 42 V50" fill="none" stroke="#344155" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M12 37 C17 30 24 31 30 35 C36 39 41 36 46 29 C50 23 54 21 58 22" fill="none" stroke="#202C3D" stroke-width="5.5" stroke-linecap="round"/>
+  <path d="M12 37 C17 30 24 31 30 35 C36 39 41 36 46 29 C50 23 54 21 58 22" fill="none" stroke="url(#axisLine)" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="12" cy="37" r="3.3" fill="#050A11" stroke="#50D8AF" stroke-width="1.6"/>
+  <circle cx="31" cy="36" r="3.3" fill="#050A11" stroke="#39BDEB" stroke-width="1.6"/>
+  <circle cx="58" cy="22" r="3.3" fill="#050A11" stroke="#6885FF" stroke-width="1.6"/>
+</svg>

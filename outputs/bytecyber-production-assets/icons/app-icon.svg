@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">ByteCyber app icon</title>
+  <desc id="desc">ByteCyber app icon for product and landing page usage.</desc>
+  <defs>
+    <linearGradient id="axisLine" x1="216" y1="628" x2="784" y2="338" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50D8AF"/>
+      <stop offset="0.52" stop-color="#39BDEB"/>
+      <stop offset="1" stop-color="#6885FF"/>
+    </linearGradient>
+    <linearGradient id="surface" x1="128" y1="64" x2="896" y2="960" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#09111C"/>
+      <stop offset="1" stop-color="#050A11"/>
+    </linearGradient>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="208" fill="url(#surface)"/>
+  <path d="M216 696 H812" fill="none" stroke="#344155" stroke-width="18" stroke-linecap="round"/>
+  <path d="M278 642 V750 M456 642 V750 M634 642 V750" fill="none" stroke="#344155" stroke-width="18" stroke-linecap="round"/>
+  <path d="M208 570 C283 475 376 466 470 522 C562 576 622 562 696 464 C758 382 810 320 872 302" fill="none" stroke="#202C3D" stroke-width="58" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M208 570 C283 475 376 466 470 522 C562 576 622 562 696 464 C758 382 810 320 872 302" fill="none" stroke="url(#axisLine)" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="208" cy="570" r="42" fill="#050A11" stroke="#50D8AF" stroke-width="16"/>
+  <circle cx="512" cy="543" r="42" fill="#050A11" stroke="#39BDEB" stroke-width="16"/>
+  <circle cx="872" cy="302" r="42" fill="#050A11" stroke="#6885FF" stroke-width="16"/>
+</svg>

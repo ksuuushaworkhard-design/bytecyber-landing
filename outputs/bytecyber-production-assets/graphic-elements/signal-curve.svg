@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="260" viewBox="0 0 640 260" role="img" aria-labelledby="title desc">
+  <title id="title">ByteCyber signal curve</title>
+  <desc id="desc">Reusable ByteCyber bidstream signal curve.</desc>
+  <defs>
+    <linearGradient id="stream" x1="72" y1="170" x2="530" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50D8AF"/>
+      <stop offset="0.52" stop-color="#39BDEB"/>
+      <stop offset="1" stop-color="#6885FF"/>
+    </linearGradient>
+  </defs>
+  <path d="M72 172 C130 100 196 114 250 146 C312 182 362 164 420 92 C464 38 506 32 568 58" fill="none" stroke="#202C3D" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M72 172 C130 100 196 114 250 146 C312 182 362 164 420 92 C464 38 506 32 568 58" fill="none" stroke="url(#stream)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

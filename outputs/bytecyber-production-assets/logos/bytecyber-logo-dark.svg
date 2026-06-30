@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" role="img" aria-labelledby="title desc">
+  <title id="title">ByteCyber logo for dark background</title>
+  <desc id="desc">ByteCyber logo optimized for dark backgrounds.</desc>
+  <defs>
+    <linearGradient id="axisLine" x1="55" y1="135" x2="182" y2="71" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50D8AF"/>
+      <stop offset="0.52" stop-color="#39BDEB"/>
+      <stop offset="1" stop-color="#6885FF"/>
+    </linearGradient>
+    <style>
+      .word { fill: #F1F6FB; font-family: Inter, "Helvetica Neue", Arial, sans-serif; font-size: 50px; font-weight: 620; letter-spacing: 0; }
+      .axis { fill: none; stroke: #344155; stroke-width: 2.25; stroke-linecap: round; }
+      .rail { fill: none; stroke: #202C3D; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+      .stream { fill: none; stroke: url(#axisLine); stroke-width: 5.75; stroke-linecap: round; stroke-linejoin: round; }
+      .node-ring { fill: #071018; stroke-width: 2.5; }
+    </style>
+  </defs>
+  <g transform="translate(45 47)">
+    <path class="axis" d="M20 109 H158"/>
+    <path class="axis" d="M34 100 V118"/>
+    <path class="axis" d="M75 100 V118"/>
+    <path class="axis" d="M116 100 V118"/>
+    <path class="axis" d="M157 100 V118"/>
+    <path class="rail" d="M18 83 C34 63 53 61 72 72 C91 83 103 81 118 61 C131 43 143 28 159 24"/>
+    <path class="stream" d="M18 83 C34 63 53 61 72 72 C91 83 103 81 118 61 C131 43 143 28 159 24"/>
+    <circle class="node-ring" cx="18" cy="83" r="7" stroke="#50D8AF"/>
+    <circle class="node-ring" cx="80" cy="76" r="7" stroke="#39BDEB"/>
+    <circle class="node-ring" cx="159" cy="24" r="7" stroke="#6885FF"/>
+  </g>
+  <text class="word" x="226" y="105">ByteCyber</text>
+  <path d="M227 127 H502" fill="none" stroke="#253143" stroke-width="1.75" stroke-linecap="round"/>
+  <path d="M227 127 H292" fill="none" stroke="#39BDEB" stroke-width="1.75" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">ByteCyber interface card style</title>
+  <desc id="desc">Reusable interface card style for ByteCyber landing page modules.</desc>
+  <rect x="1" y="1" width="638" height="358" rx="8" fill="#09111C" stroke="#1E2B3C" stroke-width="2"/>
+  <text x="36" y="62" fill="#DDE8F2" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="650">Bid Decision Layer</text>
+  <text x="36" y="96" fill="#7E8998" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="16">Signal-based programmatic buying logic.</text>
+  <rect x="36" y="140" width="170" height="112" rx="6" fill="#0E1724" stroke="#253143"/>
+  <rect x="234" y="140" width="170" height="112" rx="6" fill="#0E1724" stroke="#253143"/>
+  <rect x="432" y="140" width="170" height="112" rx="6" fill="#0E1724" stroke="#253143"/>
+  <text x="58" y="178" fill="#7E8998" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="15">Signals</text>
+  <text x="58" y="224" fill="#F1F6FB" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="36" font-weight="650">2.8M</text>
+  <text x="256" y="178" fill="#7E8998" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="15">Win rate</text>
+  <text x="256" y="224" fill="#F1F6FB" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="36" font-weight="650">41%</text>
+  <text x="454" y="178" fill="#7E8998" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="15">Latency</text>
+  <text x="454" y="224" fill="#F1F6FB" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="36" font-weight="650">18ms</text>
+  <path d="M36 304 H604" fill="none" stroke="#253143" stroke-width="2" stroke-linecap="round"/>
+  <path d="M36 304 H142" fill="none" stroke="#39BDEB" stroke-width="2" stroke-linecap="round"/>
+</svg>

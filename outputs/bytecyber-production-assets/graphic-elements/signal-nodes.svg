@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="120" viewBox="0 0 360 120" role="img" aria-labelledby="title desc">
+  <title id="title">ByteCyber signal nodes</title>
+  <desc id="desc">Reusable signal node set from the ByteCyber identity.</desc>
+  <circle cx="72" cy="60" r="16" fill="#071018" stroke="#50D8AF" stroke-width="6"/>
+  <circle cx="180" cy="60" r="16" fill="#071018" stroke="#39BDEB" stroke-width="6"/>
+  <circle cx="288" cy="60" r="16" fill="#071018" stroke="#6885FF" stroke-width="6"/>
+</svg>

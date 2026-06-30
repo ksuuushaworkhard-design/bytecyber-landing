@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">ByteCyber compact mark</title>
+  <desc id="desc">Compact ByteCyber bidstream mark for icons and small interface placements.</desc>
+  <defs>
+    <linearGradient id="axisLine" x1="54" y1="154" x2="196" y2="84" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#50D8AF"/>
+      <stop offset="0.52" stop-color="#39BDEB"/>
+      <stop offset="1" stop-color="#6885FF"/>
+    </linearGradient>
+    <style>
+      .axis { fill: none; stroke: #344155; stroke-width: 3.5; stroke-linecap: round; }
+      .rail { fill: none; stroke: #202C3D; stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; }
+      .stream { fill: none; stroke: url(#axisLine); stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+      .node-ring { fill: transparent; stroke-width: 4; }
+    </style>
+  </defs>
+  <path class="axis" d="M46 174 H203"/>
+  <path class="axis" d="M62 162 V186"/>
+  <path class="axis" d="M109 162 V186"/>
+  <path class="axis" d="M156 162 V186"/>
+  <path class="rail" d="M44 144 C63 120 87 117 111 131 C134 144 149 141 168 116 C183 94 197 77 215 72"/>
+  <path class="stream" d="M44 144 C63 120 87 117 111 131 C134 144 149 141 168 116 C183 94 197 77 215 72"/>
+  <circle class="node-ring" cx="44" cy="144" r="10" stroke="#50D8AF"/>
+  <circle class="node-ring" cx="121" cy="136" r="10" stroke="#39BDEB"/>
+  <circle class="node-ring" cx="215" cy="72" r="10" stroke="#6885FF"/>
+</svg>

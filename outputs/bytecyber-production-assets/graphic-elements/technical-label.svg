@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="64" viewBox="0 0 260 64" role="img" aria-labelledby="title desc">
+  <title id="title">ByteCyber technical label style</title>
+  <desc id="desc">Small technical label style for ByteCyber interface text.</desc>
+  <rect x="1" y="1" width="258" height="62" rx="31" fill="#09111C" stroke="#253143" stroke-width="2"/>
+  <circle cx="32" cy="32" r="5" fill="#39BDEB"/>
+  <text x="50" y="38" fill="#AAB5C3" font-family="SF Mono, IBM Plex Mono, ui-monospace, Menlo, Consolas, monospace" font-size="15" font-weight="500" letter-spacing="0">LIVE BID LOGIC</text>
+</svg>
