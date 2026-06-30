@@ -7,7 +7,7 @@
   --bc-line-soft: rgba(37, 49, 67, 0.72);
   --bc-text: #F1F6FB;
   --bc-muted: #AAB5C3;
-  --bc-muted-2: #7E8998;
+  --bc-muted-2: #96A3B2;
   --bc-signal: #50D8AF;
   --bc-bid: #39BDEB;
   --bc-decision: #6885FF;
@@ -530,6 +530,7 @@ h4 {
 .content-section {
   padding: 88px 0;
   border-top: 1px solid rgba(37, 49, 67, 0.7);
+  scroll-margin-top: calc(var(--header-height) + 24px);
 }
 
 .section-layout {
@@ -663,8 +664,9 @@ h4 {
 .workflow-rail {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0;
+  row-gap: 28px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -673,6 +675,7 @@ h4 {
 .workflow-rail::before {
   content: "";
   position: absolute;
+  display: none;
   left: 7%;
   right: 7%;
   top: 22px;
@@ -684,6 +687,7 @@ h4 {
 .workflow-rail::after {
   content: "";
   position: absolute;
+  display: none;
   left: 7%;
   top: 16px;
   width: 14px;
@@ -694,7 +698,7 @@ h4 {
   animation: workflowTravel 8s linear infinite;
 }
 
-.workflow-rail li {
+.workflow-step {
   position: relative;
   display: grid;
   align-content: start;
@@ -703,7 +707,7 @@ h4 {
   min-width: 0;
 }
 
-.workflow-rail li::before {
+.workflow-step::before {
   content: "";
   position: absolute;
   top: 13px;
@@ -717,20 +721,20 @@ h4 {
   animation: workflowStepPulse 8s linear infinite;
 }
 
-.workflow-rail li:nth-child(1)::before,
-.workflow-rail li:nth-child(3)::before {
+.workflow-step:nth-child(1)::before,
+.workflow-step:nth-child(3)::before {
   border-color: var(--bc-signal);
 }
 
-.workflow-rail li:nth-child(6)::before {
+.workflow-step:nth-child(6)::before {
   border-color: var(--bc-decision);
 }
 
-.workflow-rail li:nth-child(2)::before { animation-delay: 1.33s; }
-.workflow-rail li:nth-child(3)::before { animation-delay: 2.66s; }
-.workflow-rail li:nth-child(4)::before { animation-delay: 4s; }
-.workflow-rail li:nth-child(5)::before { animation-delay: 5.33s; }
-.workflow-rail li:nth-child(6)::before { animation-delay: 6.66s; }
+.workflow-step:nth-child(2)::before { animation-delay: 1.33s; }
+.workflow-step:nth-child(3)::before { animation-delay: 2.66s; }
+.workflow-step:nth-child(4)::before { animation-delay: 4s; }
+.workflow-step:nth-child(5)::before { animation-delay: 5.33s; }
+.workflow-step:nth-child(6)::before { animation-delay: 6.66s; }
 
 .workflow-rail span {
   color: var(--bc-bid);
@@ -758,6 +762,7 @@ h4 {
   margin-top: 48px;
   margin-bottom: 28px;
   padding: 42px;
+  scroll-margin-top: calc(var(--header-height) + 24px);
   background:
     linear-gradient(120deg, rgba(57, 189, 235, 0.1), transparent 38%),
     rgba(9, 17, 28, 0.8);
@@ -945,7 +950,6 @@ h4 {
 
   .workflow-rail {
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 28px;
   }
 
   .workflow-rail::before {
@@ -1018,16 +1022,16 @@ h4 {
     grid-template-columns: 1fr;
   }
 
-  .workflow-rail li {
+  .workflow-step {
     padding: 4px 0 26px 42px;
     border-left: 2px solid var(--bc-line);
   }
 
-  .workflow-rail li:last-child {
+  .workflow-step:last-child {
     padding-bottom: 0;
   }
 
-  .workflow-rail li::before {
+  .workflow-step::before {
     top: 2px;
     left: -11px;
   }
