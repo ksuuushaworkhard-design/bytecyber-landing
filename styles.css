@@ -86,12 +86,16 @@ h4 {
 
 .hero-copy,
 .hero-visual,
-.section-heading > *,
+.section-layout > *,
+.section-header-content,
+.section-label,
 .section-copy,
 .cards-grid > *,
 .technology-split > *,
 .mini-card-grid > *,
 .workflow-rail > *,
+.final-cta-content,
+.final-cta-label,
 .final-cta > *,
 .visual-metrics > * {
   min-width: 0;
@@ -528,37 +532,34 @@ h4 {
   border-top: 1px solid rgba(37, 49, 67, 0.7);
 }
 
-.section-heading {
+.section-layout {
   display: grid;
-  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
-  gap: 34px;
+  grid-template-columns: minmax(220px, 260px) minmax(0, 1fr);
+  gap: 40px;
   align-items: start;
 }
 
-.section-heading.wide {
-  grid-template-columns: 1fr;
-  max-width: 900px;
+.section-header-content {
+  width: 100%;
+  max-width: 980px;
 }
 
-.section-heading h2,
+.section-header-content h2,
 .final-cta h2 {
   font-size: clamp(2rem, 4vw, 4.2rem);
   line-height: 1.02;
   font-weight: 650;
   letter-spacing: 0;
+  text-align: left;
 }
 
 .section-copy {
   display: grid;
   gap: 16px;
-  max-width: 760px;
-  margin: 26px 0 0 auto;
+  max-width: 820px;
+  margin: 24px 0 0;
   font-size: 1.02rem;
-}
-
-.wide-copy {
-  max-width: 860px;
-  margin-left: 0;
+  text-align: left;
 }
 
 .cards-grid {
@@ -751,7 +752,7 @@ h4 {
   position: relative;
   overflow: hidden;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: minmax(220px, 260px) minmax(0, 1fr) auto;
   gap: 32px;
   align-items: end;
   margin-top: 48px;
@@ -776,7 +777,6 @@ h4 {
 
 .final-cta h2 {
   max-width: 760px;
-  margin-top: 18px;
 }
 
 .final-cta p {
@@ -974,8 +974,16 @@ h4 {
   .cards-grid.three,
   .technology-split,
   .mini-card-grid,
-  .section-heading {
+  .section-layout {
     grid-template-columns: 1fr;
+  }
+
+  .section-layout {
+    gap: 18px;
+  }
+
+  .section-header-content {
+    max-width: none;
   }
 
   .key-points {
@@ -987,6 +995,7 @@ h4 {
   }
 
   .section-copy {
+    max-width: none;
     margin-left: 0;
   }
 
@@ -1025,6 +1034,8 @@ h4 {
 
   .final-cta {
     grid-template-columns: 1fr;
+    gap: 22px;
+    align-items: start;
     padding: 28px;
   }
 
